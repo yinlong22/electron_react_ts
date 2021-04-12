@@ -1,8 +1,11 @@
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+import * as React from 'react'
+import * as ReactDOM from 'react-dom'
+import {Hello} from './view/Hello'
 
-function render() {
-    ReactDOM.render(<h2>Hello from React!</h2>, document.body);
-}
+ReactDOM.render(
+    <div>
+        <Hello/>
+    </div>
+    , document.getElementById('root')
+)
 
-render();
